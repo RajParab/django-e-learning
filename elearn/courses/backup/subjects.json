@@ -1,0 +1,50 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "subject": 1,
+    "title": "Quantum Mechanics",
+    "slug": "quantum-mechanics",
+    "description": "Quantum Mechanics by Raj Parab",
+    "created_on": "2019-06-12T09:30:27.948Z",
+    "updated_on": "2019-06-12T09:31:40.819Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "1-Intro to Quatum Mechanics",
+    "description": "This the introduction to Quantum Mechanics"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "2-Einstein's Equation",
+    "description": "THis is Einstein's Equation of relativity"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "3- Quatum Computer",
+    "description": "Quantum Computer"
+  }
+}
+]
