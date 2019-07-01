@@ -1,4 +1,4 @@
-#django E-learning App
+<h1>Django E-learning App</h1><br>
 This is a RESTful API
 
 <p>A simple Django App which lets user create new courses<br>
